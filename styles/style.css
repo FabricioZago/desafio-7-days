@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600&display=swap');
+
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logotipo {
+    display: flex;
+    padding: 5px;
+}
+
+.recursosp {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav {
+    color: var(--text-color);
+    justify-content: space-around;
+    padding: 18px;
+    flex-grow: 1;
+    font-weight: 500;
+}
+
+.linksp {
+    width: 300px;
+    display: flex;
+    justify-self: flex-start;
+}
+
+button, a {
+    font-family: 'Inter', sans-serif;
+    border: none;
+    color: var(--text-color);
+    background: none;
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button1{
+    order: 1;
+}
+
+.button2 {
+    border-radius: 8px;
+    background: var(--main-color);
+    color: #ffffff;
+    padding: 10px 18px;
+    transition: 0.3s all;
+    order: 2;
+}
+
+.button2:hover {
+    background: #802020;
+}
+
+.linku {
+    flex-shrink: 0;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    font-weight: 600;
+}
+
+#sobre {
+    color: var(--main-color);
+    font-size: 0.9em;
+}
+
+.pprincipal, .titulop, #sobre {
+    display: block;
+    padding: 1em 0;
+}
+
+.titulop {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.pprincipal {
+    text-align: center;
+    max-width: 55%;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.5rem;
+}
+
+.metricas {
+    display: flex;
+    margin: 3% auto;
+    max-width: 1090px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+
+.metricas > div {
+    max-width: 200px;
+    flex: 1 1;
+    color: var(--text-color);
+}
+
+.valor h1 {
+    color: var(--main-color);
+    font-size: 3em;
+}
+
+.valor h2 {
+    font-weight: 500;
+    color: #101828;
+    font-size: 1rem;
+}
+
+.valor p {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.valor h1, .valor h2, .valor p {
+    padding: 15px 5px 0 5px;
+}
+
+.talentos {
+    margin: 150px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1090px;
+    padding: 0 5%;
+}
+
+.talentos img {
+    max-width: 100%;
+}
+
+.talentos div {
+    text-align: center;
+    margin-bottom: 40px;
+    flex: 1 1;
+}
+
+.talentos div * {
+    margin: 15px auto;
+}
+
+#vagas {
+    font-weight: 500;
+    color: var(--main-color);
+    background: #8E24240D;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.7rem;
+}
+
+.talentos p {
+    color: var(--text-color);
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.design h3, .design div {
+    margin: 0 10% 3%;
+    font-weight: 500;
+}
+
+.design h3 {
+    margin: 8% 10% 3%;
+}
+
+.design div {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.design div p, .design div h4 {
+    padding: 20px;
+}
+
+.design div p {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.depoiments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 900px;
+    background: #C3191908;
+    border-radius: 16px;
+}
+
+.depoiments h1, .depoiments span, .depoiments h5, .depoiments p, #avatar {
+    text-align: center;
+}
+
+.depoiments span {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 10% 0 3%;
+}
+
+.depoiments h1 {
+    font-size: 1.5rem;
+    padding: 0 2rem 1.5%;
+}
+
+#avatar {
+    padding: 1.5% 0;
+}
+
+.depoiments h5 {
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.depoiments p {
+    padding: 5px 0 9%;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9FAFB;
+    padding: 5% 0;
+}
+
+footer h1 {
+    padding: 10% 0 25px;
+}
+
+footer p {
+    padding: 0 0 5%;
+}
+
+footer form {
+    padding: 0 0 3%;
+}
+
+footer label {
+    margin-left: 10px;
+}
+
+#email {
+    padding: 10px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.submit {
+    background: var(--main-color);
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+footer #direitos {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #98A2B3;
+}
+
+@media screen and (max-width: 580px) {
+    nav {
+        justify-content: space-between;
+    }
+    
+    .recursosp {
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        justify-content: flex-start;
+    }
+
+    .metricas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .valor h1, .valor h2, .valor p {
+        text-align: center;
+    }
+
+    .talentos {
+        padding: 0;
+    }
+
+    footer h1, footer p {
+        text-align: center;
+    }
+}
