@@ -2,3 +2,5 @@
 
 - coloquei algumas funcionalidades pequenas como ao passar o mouse mudar a cor do botão.
 - também adcionei um pouco de responsividade, apesar de ser principalmente para o computador.
+
+## resultado final publicado na vercel https://desafio-7-days-t76s.vercel.app/
